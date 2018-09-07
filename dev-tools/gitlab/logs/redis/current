@@ -1,0 +1,797 @@
+2018-06-11_10:36:53.60057                 _._                                                  
+2018-06-11_10:36:53.60062            _.-``__ ''-._                                             
+2018-06-11_10:36:53.60062       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_10:36:53.60063   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_10:36:53.60063  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_10:36:53.60063  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_10:36:53.60063  |    `-._   `._    /     _.-'    |     PID: 722
+2018-06-11_10:36:53.60064   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_10:36:53.60064  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_10:36:53.60064  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_10:36:53.60064   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_10:36:53.60065  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_10:36:53.60065  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_10:36:53.60065   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_10:36:53.60065       `-._    `-.__.-'    _.-'                                       
+2018-06-11_10:36:53.60065           `-._        _.-'                                           
+2018-06-11_10:36:53.60066               `-.__.-'                                               
+2018-06-11_10:36:53.60067 
+2018-06-11_10:36:53.60067 722:M 11 Jun 10:36:53.600 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_10:36:53.60067 722:M 11 Jun 10:36:53.600 # Server started, Redis version 3.2.11
+2018-06-11_10:36:53.60067 722:M 11 Jun 10:36:53.600 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_10:36:53.60068 722:M 11 Jun 10:36:53.600 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_10:41:54.01457 722:M 11 Jun 10:41:54.014 * 10 changes in 300 seconds. Saving...
+2018-06-11_10:41:54.01812 722:M 11 Jun 10:41:54.018 * Background saving started by pid 1722
+2018-06-11_10:41:54.04723 1722:C 11 Jun 10:41:54.047 * DB saved on disk
+2018-06-11_10:41:54.04761 1722:C 11 Jun 10:41:54.047 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_10:41:54.11886 722:M 11 Jun 10:41:54.118 * Background saving terminated with success
+2018-06-11_10:46:55.06391 722:M 11 Jun 10:46:55.063 * 10 changes in 300 seconds. Saving...
+2018-06-11_10:46:55.09166 722:M 11 Jun 10:46:55.091 * Background saving started by pid 2383
+2018-06-11_10:46:55.13041 2383:C 11 Jun 10:46:55.130 * DB saved on disk
+2018-06-11_10:46:55.13295 2383:C 11 Jun 10:46:55.131 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_10:46:55.19212 722:M 11 Jun 10:46:55.192 * Background saving terminated with success
+2018-06-11_10:51:56.01310 722:M 11 Jun 10:51:56.013 * 10 changes in 300 seconds. Saving...
+2018-06-11_10:51:56.01578 722:M 11 Jun 10:51:56.014 * Background saving started by pid 3043
+2018-06-11_10:51:56.04837 3043:C 11 Jun 10:51:56.048 * DB saved on disk
+2018-06-11_10:51:56.04891 3043:C 11 Jun 10:51:56.048 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_10:51:56.11531 722:M 11 Jun 10:51:56.115 * Background saving terminated with success
+2018-06-11_11:01:03.03142                 _._                                                  
+2018-06-11_11:01:03.03347            _.-``__ ''-._                                             
+2018-06-11_11:01:03.03368       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_11:01:03.03383   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_11:01:03.03395  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_11:01:03.03395  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_11:01:03.03395  |    `-._   `._    /     _.-'    |     PID: 722
+2018-06-11_11:01:03.03396   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_11:01:03.03396  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_11:01:03.03396  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_11:01:03.03396   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_11:01:03.03396  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_11:01:03.03396  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_11:01:03.03396   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_11:01:03.03396       `-._    `-.__.-'    _.-'                                       
+2018-06-11_11:01:03.03397           `-._        _.-'                                           
+2018-06-11_11:01:03.03398               `-.__.-'                                               
+2018-06-11_11:01:03.03398 
+2018-06-11_11:01:03.03398 722:M 11 Jun 11:01:03.031 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_11:01:03.03398 722:M 11 Jun 11:01:03.031 # Server started, Redis version 3.2.11
+2018-06-11_11:01:03.03398 722:M 11 Jun 11:01:03.031 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_11:01:03.03398 722:M 11 Jun 11:01:03.031 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_11:06:04.10419 722:M 11 Jun 11:06:04.104 * 10 changes in 300 seconds. Saving...
+2018-06-11_11:06:04.11889 722:M 11 Jun 11:06:04.118 * Background saving started by pid 1861
+2018-06-11_11:06:04.15090 1861:C 11 Jun 11:06:04.150 * DB saved on disk
+2018-06-11_11:06:04.15128 1861:C 11 Jun 11:06:04.151 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_11:06:04.21852 722:M 11 Jun 11:06:04.218 * Background saving terminated with success
+2018-06-11_11:11:05.03880 722:M 11 Jun 11:11:05.038 * 10 changes in 300 seconds. Saving...
+2018-06-11_11:11:05.04929 722:M 11 Jun 11:11:05.049 * Background saving started by pid 2539
+2018-06-11_11:11:05.09674 2539:C 11 Jun 11:11:05.096 * DB saved on disk
+2018-06-11_11:11:05.10314 2539:C 11 Jun 11:11:05.097 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_11:11:05.14944 722:M 11 Jun 11:11:05.149 * Background saving terminated with success
+2018-06-11_11:16:06.04203 722:M 11 Jun 11:16:06.041 * 10 changes in 300 seconds. Saving...
+2018-06-11_11:16:06.05326 722:M 11 Jun 11:16:06.041 * Background saving started by pid 3224
+2018-06-11_11:16:06.06910 3224:C 11 Jun 11:16:06.069 * DB saved on disk
+2018-06-11_11:16:06.06977 3224:C 11 Jun 11:16:06.069 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_11:16:06.14196 722:M 11 Jun 11:16:06.141 * Background saving terminated with success
+2018-06-11_11:19:51.72650                 _._                                                  
+2018-06-11_11:19:51.72855            _.-``__ ''-._                                             
+2018-06-11_11:19:51.72872       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_11:19:51.72885   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_11:19:51.72895  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_11:19:51.72904  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_11:19:51.72921  |    `-._   `._    /     _.-'    |     PID: 720
+2018-06-11_11:19:51.72935   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_11:19:51.72936  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_11:19:51.72936  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_11:19:51.72936   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_11:19:51.72936  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_11:19:51.72936  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_11:19:51.72936   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_11:19:51.72936       `-._    `-.__.-'    _.-'                                       
+2018-06-11_11:19:51.72936           `-._        _.-'                                           
+2018-06-11_11:19:51.72937               `-.__.-'                                               
+2018-06-11_11:19:51.72938 
+2018-06-11_11:19:51.72938 720:M 11 Jun 11:19:51.726 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_11:19:51.72938 720:M 11 Jun 11:19:51.726 # Server started, Redis version 3.2.11
+2018-06-11_11:19:51.72938 720:M 11 Jun 11:19:51.726 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_11:19:51.72938 720:M 11 Jun 11:19:51.726 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_11:24:52.11501 720:M 11 Jun 11:24:52.114 * 10 changes in 300 seconds. Saving...
+2018-06-11_11:24:52.13516 720:M 11 Jun 11:24:52.135 * Background saving started by pid 1758
+2018-06-11_11:24:52.18510 1758:C 11 Jun 11:24:52.184 * DB saved on disk
+2018-06-11_11:24:52.18511 1758:C 11 Jun 11:24:52.184 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_11:24:52.23543 720:M 11 Jun 11:24:52.235 * Background saving terminated with success
+2018-06-11_11:29:53.03727 720:M 11 Jun 11:29:53.037 * 10 changes in 300 seconds. Saving...
+2018-06-11_11:29:53.05412 720:M 11 Jun 11:29:53.053 * Background saving started by pid 2413
+2018-06-11_11:29:53.06671 2413:C 11 Jun 11:29:53.066 * DB saved on disk
+2018-06-11_11:29:53.06708 2413:C 11 Jun 11:29:53.067 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_11:29:53.15383 720:M 11 Jun 11:29:53.153 * Background saving terminated with success
+2018-06-11_11:34:07.37542                 _._                                                  
+2018-06-11_11:34:07.37866            _.-``__ ''-._                                             
+2018-06-11_11:34:07.37895       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_11:34:07.37911   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_11:34:07.37924  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_11:34:07.37939  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_11:34:07.37966  |    `-._   `._    /     _.-'    |     PID: 723
+2018-06-11_11:34:07.37986   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_11:34:07.38000  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_11:34:07.38013  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_11:34:07.38026   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_11:34:07.38065  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_11:34:07.38653  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_11:34:07.38731   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_11:34:07.38761       `-._    `-.__.-'    _.-'                                       
+2018-06-11_11:34:07.38779           `-._        _.-'                                           
+2018-06-11_11:34:07.38780               `-.__.-'                                               
+2018-06-11_11:34:07.38780 
+2018-06-11_11:34:07.38780 723:M 11 Jun 11:34:07.375 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_11:34:07.38781 723:M 11 Jun 11:34:07.375 # Server started, Redis version 3.2.11
+2018-06-11_11:34:07.38781 723:M 11 Jun 11:34:07.375 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_11:34:07.38781 723:M 11 Jun 11:34:07.375 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_11:40:17.72667                 _._                                                  
+2018-06-11_11:40:17.72866            _.-``__ ''-._                                             
+2018-06-11_11:40:17.72892       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_11:40:17.72911   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_11:40:17.72929  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_11:40:17.72952  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_11:40:17.72970  |    `-._   `._    /     _.-'    |     PID: 711
+2018-06-11_11:40:17.72986   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_11:40:17.73001  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_11:40:17.73016  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_11:40:17.73031   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_11:40:17.73053  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_11:40:17.73349  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_11:40:17.73375   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_11:40:17.73452       `-._    `-.__.-'    _.-'                                       
+2018-06-11_11:40:17.73560           `-._        _.-'                                           
+2018-06-11_11:40:17.73583               `-.__.-'                                               
+2018-06-11_11:40:17.73602 
+2018-06-11_11:40:17.73621 711:M 11 Jun 11:40:17.726 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_11:40:17.73641 711:M 11 Jun 11:40:17.727 # Server started, Redis version 3.2.11
+2018-06-11_11:40:17.73657 711:M 11 Jun 11:40:17.727 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_11:40:17.73674 711:M 11 Jun 11:40:17.727 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_11:45:18.09664 711:M 11 Jun 11:45:18.096 * 10 changes in 300 seconds. Saving...
+2018-06-11_11:45:18.09994 711:M 11 Jun 11:45:18.099 * Background saving started by pid 1963
+2018-06-11_11:45:18.11234 1963:C 11 Jun 11:45:18.112 * DB saved on disk
+2018-06-11_11:45:18.11280 1963:C 11 Jun 11:45:18.112 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_11:45:18.20030 711:M 11 Jun 11:45:18.200 * Background saving terminated with success
+2018-06-11_12:57:58.74305                 _._                                                  
+2018-06-11_12:57:58.74495            _.-``__ ''-._                                             
+2018-06-11_12:57:58.74529       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_12:57:58.74530   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_12:57:58.74530  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_12:57:58.74530  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_12:57:58.74530  |    `-._   `._    /     _.-'    |     PID: 709
+2018-06-11_12:57:58.74530   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_12:57:58.74530  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_12:57:58.74531  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_12:57:58.74531   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_12:57:58.74531  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_12:57:58.74531  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_12:57:58.74531   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_12:57:58.74531       `-._    `-.__.-'    _.-'                                       
+2018-06-11_12:57:58.74531           `-._        _.-'                                           
+2018-06-11_12:57:58.74532               `-.__.-'                                               
+2018-06-11_12:57:58.74532 
+2018-06-11_12:57:58.74533 709:M 11 Jun 12:57:58.741 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_12:57:58.74533 709:M 11 Jun 12:57:58.741 # Server started, Redis version 3.2.11
+2018-06-11_12:57:58.74533 709:M 11 Jun 12:57:58.741 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_12:57:58.74533 709:M 11 Jun 12:57:58.741 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_13:04:02.78895                 _._                                                  
+2018-06-11_13:04:02.79126            _.-``__ ''-._                                             
+2018-06-11_13:04:02.79159       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_13:04:02.79184   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_13:04:02.79207  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_13:04:02.79228  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_13:04:02.79248  |    `-._   `._    /     _.-'    |     PID: 709
+2018-06-11_13:04:02.79267   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_13:04:02.79285  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:04:02.79305  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_13:04:02.79323   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:04:02.79344  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:04:02.79367  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_13:04:02.79391   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:04:02.79418       `-._    `-.__.-'    _.-'                                       
+2018-06-11_13:04:02.79446           `-._        _.-'                                           
+2018-06-11_13:04:02.79475               `-.__.-'                                               
+2018-06-11_13:04:02.79497 
+2018-06-11_13:04:02.79523 709:M 11 Jun 13:04:02.788 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_13:04:02.79548 709:M 11 Jun 13:04:02.788 # Server started, Redis version 3.2.11
+2018-06-11_13:04:02.79549 709:M 11 Jun 13:04:02.789 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_13:04:02.79549 709:M 11 Jun 13:04:02.789 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_13:09:15.25965                 _._                                                  
+2018-06-11_13:09:15.26182            _.-``__ ''-._                                             
+2018-06-11_13:09:15.26222       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_13:09:15.26246   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_13:09:15.26269  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_13:09:15.26297  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_13:09:15.26323  |    `-._   `._    /     _.-'    |     PID: 709
+2018-06-11_13:09:15.26348   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_13:09:15.26371  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:09:15.26395  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_13:09:15.26416   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:09:15.26438  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:09:15.26458  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_13:09:15.26476   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:09:15.26494       `-._    `-.__.-'    _.-'                                       
+2018-06-11_13:09:15.26509           `-._        _.-'                                           
+2018-06-11_13:09:15.26521               `-.__.-'                                               
+2018-06-11_13:09:15.26531 
+2018-06-11_13:09:15.26542 709:M 11 Jun 13:09:15.259 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_13:09:15.26553 709:M 11 Jun 13:09:15.259 # Server started, Redis version 3.2.11
+2018-06-11_13:09:15.26563 709:M 11 Jun 13:09:15.259 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_13:09:15.26574 709:M 11 Jun 13:09:15.259 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_13:16:35.89518                 _._                                                  
+2018-06-11_13:16:35.89726            _.-``__ ''-._                                             
+2018-06-11_13:16:35.89752       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_13:16:35.89776   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_13:16:35.89820  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_13:16:35.89843  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_13:16:35.89867  |    `-._   `._    /     _.-'    |     PID: 710
+2018-06-11_13:16:35.89903   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_13:16:35.89960  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:16:35.89985  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_13:16:35.90007   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:16:35.90040  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:16:35.90041  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_13:16:35.90041   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:16:35.90041       `-._    `-.__.-'    _.-'                                       
+2018-06-11_13:16:35.90041           `-._        _.-'                                           
+2018-06-11_13:16:35.90055               `-.__.-'                                               
+2018-06-11_13:16:35.90055 
+2018-06-11_13:16:35.90055 710:M 11 Jun 13:16:35.867 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_13:16:35.90055 710:M 11 Jun 13:16:35.867 # Server started, Redis version 3.2.11
+2018-06-11_13:16:35.90056 710:M 11 Jun 13:16:35.867 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_13:16:35.90056 710:M 11 Jun 13:16:35.867 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_13:21:36.04520 710:M 11 Jun 13:21:36.045 * 10 changes in 300 seconds. Saving...
+2018-06-11_13:21:36.05900 710:M 11 Jun 13:21:36.058 * Background saving started by pid 1975
+2018-06-11_13:21:36.07360 1975:C 11 Jun 13:21:36.073 * DB saved on disk
+2018-06-11_13:21:36.07450 1975:C 11 Jun 13:21:36.073 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_13:21:36.15936 710:M 11 Jun 13:21:36.159 * Background saving terminated with success
+2018-06-11_13:33:43.01264                 _._                                                  
+2018-06-11_13:33:43.01517            _.-``__ ''-._                                             
+2018-06-11_13:33:43.01549       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_13:33:43.01577   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_13:33:43.01603  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_13:33:43.01632  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_13:33:43.01656  |    `-._   `._    /     _.-'    |     PID: 709
+2018-06-11_13:33:43.01680   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_13:33:43.01704  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:33:43.01736  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_13:33:43.01770   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:33:43.01798  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:33:43.01823  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_13:33:43.01849   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:33:43.01875       `-._    `-.__.-'    _.-'                                       
+2018-06-11_13:33:43.01901           `-._        _.-'                                           
+2018-06-11_13:33:43.01928               `-.__.-'                                               
+2018-06-11_13:33:43.01959 
+2018-06-11_13:33:43.01983 709:M 11 Jun 13:33:43.012 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_13:33:43.02005 709:M 11 Jun 13:33:43.012 # Server started, Redis version 3.2.11
+2018-06-11_13:33:43.02032 709:M 11 Jun 13:33:43.012 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_13:33:43.02055 709:M 11 Jun 13:33:43.012 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_13:38:43.03702 709:M 11 Jun 13:38:43.036 * 10 changes in 300 seconds. Saving...
+2018-06-11_13:38:43.04891 709:M 11 Jun 13:38:43.046 * Background saving started by pid 1944
+2018-06-11_13:38:43.06900 1944:C 11 Jun 13:38:43.068 * DB saved on disk
+2018-06-11_13:38:43.06984 1944:C 11 Jun 13:38:43.069 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_13:38:43.14775 709:M 11 Jun 13:38:43.147 * Background saving terminated with success
+2018-06-11_13:43:44.02534 709:M 11 Jun 13:43:44.025 * 10 changes in 300 seconds. Saving...
+2018-06-11_13:43:44.04196 709:M 11 Jun 13:43:44.041 * Background saving started by pid 2615
+2018-06-11_13:43:44.15563 2615:C 11 Jun 13:43:44.155 * DB saved on disk
+2018-06-11_13:43:44.15605 2615:C 11 Jun 13:43:44.156 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_13:43:44.24244 709:M 11 Jun 13:43:44.242 * Background saving terminated with success
+2018-06-11_13:48:45.02506 709:M 11 Jun 13:48:45.024 * 10 changes in 300 seconds. Saving...
+2018-06-11_13:48:45.03625 709:M 11 Jun 13:48:45.036 * Background saving started by pid 3310
+2018-06-11_13:48:45.06867 3310:C 11 Jun 13:48:45.068 * DB saved on disk
+2018-06-11_13:48:45.06925 3310:C 11 Jun 13:48:45.069 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_13:48:45.13767 709:M 11 Jun 13:48:45.137 * Background saving terminated with success
+2018-06-11_13:53:46.00791 709:M 11 Jun 13:53:46.007 * 10 changes in 300 seconds. Saving...
+2018-06-11_13:53:46.00792 709:M 11 Jun 13:53:46.007 * Background saving started by pid 3958
+2018-06-11_13:53:46.03208 3958:C 11 Jun 13:53:46.031 * DB saved on disk
+2018-06-11_13:53:46.03248 3958:C 11 Jun 13:53:46.032 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_13:53:46.10756 709:M 11 Jun 13:53:46.107 * Background saving terminated with success
+2018-06-11_13:55:30.74777                 _._                                                  
+2018-06-11_13:55:30.75137            _.-``__ ''-._                                             
+2018-06-11_13:55:30.75174       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_13:55:30.75219   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_13:55:30.75241  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_13:55:30.75274  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_13:55:30.75306  |    `-._   `._    /     _.-'    |     PID: 714
+2018-06-11_13:55:30.75329   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_13:55:30.75350  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:55:30.75373  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_13:55:30.75419   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:55:30.75446  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_13:55:30.75470  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_13:55:30.75494   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_13:55:30.75514       `-._    `-.__.-'    _.-'                                       
+2018-06-11_13:55:30.75534           `-._        _.-'                                           
+2018-06-11_13:55:30.75554               `-.__.-'                                               
+2018-06-11_13:55:30.75575 
+2018-06-11_13:55:30.75595 714:M 11 Jun 13:55:30.747 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_13:55:30.75618 714:M 11 Jun 13:55:30.747 # Server started, Redis version 3.2.11
+2018-06-11_13:55:30.75639 714:M 11 Jun 13:55:30.747 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_13:55:30.75659 714:M 11 Jun 13:55:30.747 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_14:00:31.10284 714:M 11 Jun 14:00:31.102 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:00:31.10821 714:M 11 Jun 14:00:31.108 * Background saving started by pid 1989
+2018-06-11_14:00:31.11966 1989:C 11 Jun 14:00:31.119 * DB saved on disk
+2018-06-11_14:00:31.12006 1989:C 11 Jun 14:00:31.119 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:00:31.20855 714:M 11 Jun 14:00:31.208 * Background saving terminated with success
+2018-06-11_14:09:15.81168                 _._                                                  
+2018-06-11_14:09:15.81381            _.-``__ ''-._                                             
+2018-06-11_14:09:15.81408       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_14:09:15.81427   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_14:09:15.81449  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_14:09:15.81468  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_14:09:15.81487  |    `-._   `._    /     _.-'    |     PID: 709
+2018-06-11_14:09:15.81505   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_14:09:15.81524  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_14:09:15.81542  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_14:09:15.81556   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_14:09:15.81574  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_14:09:15.81592  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_14:09:15.81610   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_14:09:15.81629       `-._    `-.__.-'    _.-'                                       
+2018-06-11_14:09:15.81649           `-._        _.-'                                           
+2018-06-11_14:09:15.81668               `-.__.-'                                               
+2018-06-11_14:09:15.81686 
+2018-06-11_14:09:15.81707 709:M 11 Jun 14:09:15.811 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_14:09:15.81732 709:M 11 Jun 14:09:15.811 # Server started, Redis version 3.2.11
+2018-06-11_14:09:15.81756 709:M 11 Jun 14:09:15.811 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_14:09:15.81778 709:M 11 Jun 14:09:15.811 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_14:14:16.02616 709:M 11 Jun 14:14:16.025 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:14:16.03618 709:M 11 Jun 14:14:16.036 * Background saving started by pid 1959
+2018-06-11_14:14:16.06796 1959:C 11 Jun 14:14:16.067 * DB saved on disk
+2018-06-11_14:14:16.06987 1959:C 11 Jun 14:14:16.069 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:14:16.13670 709:M 11 Jun 14:14:16.136 * Background saving terminated with success
+2018-06-11_14:19:17.08345 709:M 11 Jun 14:19:17.083 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:19:17.09553 709:M 11 Jun 14:19:17.095 * Background saving started by pid 2654
+2018-06-11_14:19:17.11568 2654:C 11 Jun 14:19:17.115 * DB saved on disk
+2018-06-11_14:19:17.11674 2654:C 11 Jun 14:19:17.116 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:19:17.19770 709:M 11 Jun 14:19:17.197 * Background saving terminated with success
+2018-06-11_14:24:18.03855 709:M 11 Jun 14:24:18.038 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:24:18.04927 709:M 11 Jun 14:24:18.048 * Background saving started by pid 3322
+2018-06-11_14:24:18.08049 3322:C 11 Jun 14:24:18.080 * DB saved on disk
+2018-06-11_14:24:18.08138 3322:C 11 Jun 14:24:18.080 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:24:18.15029 709:M 11 Jun 14:24:18.149 * Background saving terminated with success
+2018-06-11_14:29:19.02994 709:M 11 Jun 14:29:19.029 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:29:19.03356 709:M 11 Jun 14:29:19.030 * Background saving started by pid 3990
+2018-06-11_14:29:19.05370 3990:C 11 Jun 14:29:19.053 * DB saved on disk
+2018-06-11_14:29:19.05488 3990:C 11 Jun 14:29:19.054 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:29:19.13094 709:M 11 Jun 14:29:19.130 * Background saving terminated with success
+2018-06-11_14:34:20.06711 709:M 11 Jun 14:34:20.066 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:34:20.06712 709:M 11 Jun 14:34:20.067 * Background saving started by pid 4643
+2018-06-11_14:34:20.08902 4643:C 11 Jun 14:34:20.088 * DB saved on disk
+2018-06-11_14:34:20.09044 4643:C 11 Jun 14:34:20.089 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:34:20.16776 709:M 11 Jun 14:34:20.167 * Background saving terminated with success
+2018-06-11_14:39:21.05051 709:M 11 Jun 14:39:21.050 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:39:21.06054 709:M 11 Jun 14:39:21.051 * Background saving started by pid 5307
+2018-06-11_14:39:21.09776 5307:C 11 Jun 14:39:21.097 * DB saved on disk
+2018-06-11_14:39:21.09909 5307:C 11 Jun 14:39:21.098 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:39:21.15245 709:M 11 Jun 14:39:21.152 * Background saving terminated with success
+2018-06-11_14:44:22.03696 709:M 11 Jun 14:44:22.036 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:44:22.07737 709:M 11 Jun 14:44:22.077 * Background saving started by pid 5969
+2018-06-11_14:44:22.13137 5969:C 11 Jun 14:44:22.131 * DB saved on disk
+2018-06-11_14:44:22.13456 5969:C 11 Jun 14:44:22.132 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:44:22.17901 709:M 11 Jun 14:44:22.177 * Background saving terminated with success
+2018-06-11_14:49:23.07848 709:M 11 Jun 14:49:23.078 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:49:23.07919 709:M 11 Jun 14:49:23.079 * Background saving started by pid 6648
+2018-06-11_14:49:23.14033 6648:C 11 Jun 14:49:23.140 * DB saved on disk
+2018-06-11_14:49:23.14147 6648:C 11 Jun 14:49:23.141 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:49:23.17974 709:M 11 Jun 14:49:23.179 * Background saving terminated with success
+2018-06-11_14:54:24.09002 709:M 11 Jun 14:54:24.089 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:54:24.09059 709:M 11 Jun 14:54:24.090 * Background saving started by pid 7306
+2018-06-11_14:54:24.13987 7306:C 11 Jun 14:54:24.139 * DB saved on disk
+2018-06-11_14:54:24.14113 7306:C 11 Jun 14:54:24.141 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:54:24.19154 709:M 11 Jun 14:54:24.191 * Background saving terminated with success
+2018-06-11_14:59:25.03533 709:M 11 Jun 14:59:25.035 * 10 changes in 300 seconds. Saving...
+2018-06-11_14:59:25.05016 709:M 11 Jun 14:59:25.049 * Background saving started by pid 7968
+2018-06-11_14:59:25.10305 7968:C 11 Jun 14:59:25.102 * DB saved on disk
+2018-06-11_14:59:25.10445 7968:C 11 Jun 14:59:25.104 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_14:59:25.15099 709:M 11 Jun 14:59:25.150 * Background saving terminated with success
+2018-06-11_15:04:26.09509 709:M 11 Jun 15:04:26.094 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:04:26.10383 709:M 11 Jun 15:04:26.095 * Background saving started by pid 8628
+2018-06-11_15:04:26.14926 8628:C 11 Jun 15:04:26.149 * DB saved on disk
+2018-06-11_15:04:26.15631 8628:C 11 Jun 15:04:26.150 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:04:26.19652 709:M 11 Jun 15:04:26.196 * Background saving terminated with success
+2018-06-11_15:09:27.08648 709:M 11 Jun 15:09:27.086 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:09:27.09422 709:M 11 Jun 15:09:27.087 * Background saving started by pid 9283
+2018-06-11_15:09:27.13502 9283:C 11 Jun 15:09:27.134 * DB saved on disk
+2018-06-11_15:09:27.13624 9283:C 11 Jun 15:09:27.135 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:09:27.18801 709:M 11 Jun 15:09:27.187 * Background saving terminated with success
+2018-06-11_15:14:28.08808 709:M 11 Jun 15:14:28.085 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:14:28.09494 709:M 11 Jun 15:14:28.089 * Background saving started by pid 9952
+2018-06-11_15:14:28.16961 9952:C 11 Jun 15:14:28.167 * DB saved on disk
+2018-06-11_15:14:28.16964 9952:C 11 Jun 15:14:28.168 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:14:28.19572 709:M 11 Jun 15:14:28.195 * Background saving terminated with success
+2018-06-11_15:19:29.10184 709:M 11 Jun 15:19:29.101 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:19:29.10258 709:M 11 Jun 15:19:29.102 * Background saving started by pid 10590
+2018-06-11_15:19:29.14458 10590:C 11 Jun 15:19:29.144 * DB saved on disk
+2018-06-11_15:19:29.14600 10590:C 11 Jun 15:19:29.145 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:19:29.20343 709:M 11 Jun 15:19:29.203 * Background saving terminated with success
+2018-06-11_15:24:30.08685 709:M 11 Jun 15:24:30.086 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:24:30.10072 709:M 11 Jun 15:24:30.100 * Background saving started by pid 11240
+2018-06-11_15:24:30.15671 11240:C 11 Jun 15:24:30.156 * DB saved on disk
+2018-06-11_15:24:30.15785 11240:C 11 Jun 15:24:30.157 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:24:30.20188 709:M 11 Jun 15:24:30.201 * Background saving terminated with success
+2018-06-11_15:29:31.05253 709:M 11 Jun 15:29:31.052 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:29:31.05332 709:M 11 Jun 15:29:31.053 * Background saving started by pid 11887
+2018-06-11_15:29:31.17785 11887:C 11 Jun 15:29:31.175 * DB saved on disk
+2018-06-11_15:29:31.17787 11887:C 11 Jun 15:29:31.176 * RDB: 1 MB of memory used by copy-on-write
+2018-06-11_15:29:31.25404 709:M 11 Jun 15:29:31.253 * Background saving terminated with success
+2018-06-11_15:34:32.06804 709:M 11 Jun 15:34:32.067 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:34:32.08487 709:M 11 Jun 15:34:32.068 * Background saving started by pid 12549
+2018-06-11_15:34:32.15174 12549:C 11 Jun 15:34:32.151 * DB saved on disk
+2018-06-11_15:34:32.16338 12549:C 11 Jun 15:34:32.152 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:34:32.16959 709:M 11 Jun 15:34:32.169 * Background saving terminated with success
+2018-06-11_15:39:33.01719 709:M 11 Jun 15:39:33.016 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:39:33.01722 709:M 11 Jun 15:39:33.017 * Background saving started by pid 13203
+2018-06-11_15:39:33.06925 13203:C 11 Jun 15:39:33.068 * DB saved on disk
+2018-06-11_15:39:33.07032 13203:C 11 Jun 15:39:33.070 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:39:33.11773 709:M 11 Jun 15:39:33.117 * Background saving terminated with success
+2018-06-11_15:44:34.04046 709:M 11 Jun 15:44:34.040 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:44:34.04884 709:M 11 Jun 15:44:34.041 * Background saving started by pid 13859
+2018-06-11_15:44:34.09702 13859:C 11 Jun 15:44:34.096 * DB saved on disk
+2018-06-11_15:44:34.09813 13859:C 11 Jun 15:44:34.098 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:44:34.14209 709:M 11 Jun 15:44:34.141 * Background saving terminated with success
+2018-06-11_15:49:35.06696 709:M 11 Jun 15:49:35.066 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:49:35.06743 709:M 11 Jun 15:49:35.067 * Background saving started by pid 14528
+2018-06-11_15:49:35.11957 14528:C 11 Jun 15:49:35.119 * DB saved on disk
+2018-06-11_15:49:35.12051 14528:C 11 Jun 15:49:35.120 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:49:35.16818 709:M 11 Jun 15:49:35.167 * Background saving terminated with success
+2018-06-11_15:54:36.03243 709:M 11 Jun 15:54:36.032 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:54:36.03955 709:M 11 Jun 15:54:36.033 * Background saving started by pid 15194
+2018-06-11_15:54:36.08872 15194:C 11 Jun 15:54:36.088 * DB saved on disk
+2018-06-11_15:54:36.09840 15194:C 11 Jun 15:54:36.097 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:54:36.13441 709:M 11 Jun 15:54:36.134 * Background saving terminated with success
+2018-06-11_15:59:37.01084 709:M 11 Jun 15:59:37.010 * 10 changes in 300 seconds. Saving...
+2018-06-11_15:59:37.01142 709:M 11 Jun 15:59:37.011 * Background saving started by pid 15861
+2018-06-11_15:59:37.06363 15861:C 11 Jun 15:59:37.063 * DB saved on disk
+2018-06-11_15:59:37.06478 15861:C 11 Jun 15:59:37.064 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_15:59:37.11236 709:M 11 Jun 15:59:37.112 * Background saving terminated with success
+2018-06-11_16:04:38.19950 709:M 11 Jun 16:04:38.199 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:04:38.21752 709:M 11 Jun 16:04:38.199 * Background saving started by pid 16523
+2018-06-11_16:04:38.34859 16523:C 11 Jun 16:04:38.348 * DB saved on disk
+2018-06-11_16:04:38.34999 16523:C 11 Jun 16:04:38.349 * RDB: 1 MB of memory used by copy-on-write
+2018-06-11_16:04:38.39972 709:M 11 Jun 16:04:38.399 * Background saving terminated with success
+2018-06-11_16:09:39.05455 709:M 11 Jun 16:09:39.053 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:09:39.05459 709:M 11 Jun 16:09:39.054 * Background saving started by pid 17185
+2018-06-11_16:09:39.14444 17185:C 11 Jun 16:09:39.144 * DB saved on disk
+2018-06-11_16:09:39.14541 17185:C 11 Jun 16:09:39.145 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:09:39.15547 709:M 11 Jun 16:09:39.155 * Background saving terminated with success
+2018-06-11_16:14:40.06247 709:M 11 Jun 16:14:40.061 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:14:40.06957 709:M 11 Jun 16:14:40.062 * Background saving started by pid 17844
+2018-06-11_16:14:40.11313 17844:C 11 Jun 16:14:40.112 * DB saved on disk
+2018-06-11_16:14:40.11544 17844:C 11 Jun 16:14:40.114 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:14:40.16481 709:M 11 Jun 16:14:40.163 * Background saving terminated with success
+2018-06-11_16:19:41.06535 709:M 11 Jun 16:19:41.065 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:19:41.06597 709:M 11 Jun 16:19:41.065 * Background saving started by pid 18499
+2018-06-11_16:19:41.11737 18499:C 11 Jun 16:19:41.117 * DB saved on disk
+2018-06-11_16:19:41.11829 18499:C 11 Jun 16:19:41.118 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:19:41.16692 709:M 11 Jun 16:19:41.166 * Background saving terminated with success
+2018-06-11_16:24:42.01339 709:M 11 Jun 16:24:42.013 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:24:42.02196 709:M 11 Jun 16:24:42.014 * Background saving started by pid 19166
+2018-06-11_16:24:42.07844 19166:C 11 Jun 16:24:42.078 * DB saved on disk
+2018-06-11_16:24:42.07987 19166:C 11 Jun 16:24:42.079 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:24:42.11504 709:M 11 Jun 16:24:42.114 * Background saving terminated with success
+2018-06-11_16:29:43.06388 709:M 11 Jun 16:29:43.063 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:29:43.06476 709:M 11 Jun 16:29:43.064 * Background saving started by pid 19823
+2018-06-11_16:29:43.11315 19823:C 11 Jun 16:29:43.112 * DB saved on disk
+2018-06-11_16:29:43.11419 19823:C 11 Jun 16:29:43.114 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:29:43.16528 709:M 11 Jun 16:29:43.165 * Background saving terminated with success
+2018-06-11_16:34:44.06611 709:M 11 Jun 16:34:44.065 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:34:44.07789 709:M 11 Jun 16:34:44.077 * Background saving started by pid 20471
+2018-06-11_16:34:44.13200 20471:C 11 Jun 16:34:44.131 * DB saved on disk
+2018-06-11_16:34:44.13346 20471:C 11 Jun 16:34:44.133 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:34:44.17777 709:M 11 Jun 16:34:44.177 * Background saving terminated with success
+2018-06-11_16:39:45.06743 709:M 11 Jun 16:39:45.067 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:39:45.11448 709:M 11 Jun 16:39:45.067 * Background saving started by pid 21131
+2018-06-11_16:39:45.12477 21131:C 11 Jun 16:39:45.124 * DB saved on disk
+2018-06-11_16:39:45.12809 21131:C 11 Jun 16:39:45.126 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:39:45.16937 709:M 11 Jun 16:39:45.169 * Background saving terminated with success
+2018-06-11_16:44:46.01659 709:M 11 Jun 16:44:46.016 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:44:46.01724 709:M 11 Jun 16:44:46.017 * Background saving started by pid 21791
+2018-06-11_16:44:46.07422 21791:C 11 Jun 16:44:46.071 * DB saved on disk
+2018-06-11_16:44:46.07425 21791:C 11 Jun 16:44:46.072 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:44:46.11788 709:M 11 Jun 16:44:46.117 * Background saving terminated with success
+2018-06-11_16:49:47.09380 709:M 11 Jun 16:49:47.093 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:49:47.09430 709:M 11 Jun 16:49:47.094 * Background saving started by pid 22456
+2018-06-11_16:49:47.14256 22456:C 11 Jun 16:49:47.142 * DB saved on disk
+2018-06-11_16:49:47.14360 22456:C 11 Jun 16:49:47.143 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:49:47.19485 709:M 11 Jun 16:49:47.194 * Background saving terminated with success
+2018-06-11_16:54:48.05192 709:M 11 Jun 16:54:48.051 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:54:48.08017 709:M 11 Jun 16:54:48.052 * Background saving started by pid 23106
+2018-06-11_16:54:48.17704 23106:C 11 Jun 16:54:48.174 * DB saved on disk
+2018-06-11_16:54:48.18546 23106:C 11 Jun 16:54:48.175 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:54:48.25452 709:M 11 Jun 16:54:48.254 * Background saving terminated with success
+2018-06-11_16:59:49.10359 709:M 11 Jun 16:59:49.103 * 10 changes in 300 seconds. Saving...
+2018-06-11_16:59:49.10417 709:M 11 Jun 16:59:49.104 * Background saving started by pid 23777
+2018-06-11_16:59:49.15778 23777:C 11 Jun 16:59:49.157 * DB saved on disk
+2018-06-11_16:59:49.15913 23777:C 11 Jun 16:59:49.159 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_16:59:49.20487 709:M 11 Jun 16:59:49.204 * Background saving terminated with success
+2018-06-11_17:04:50.09515 709:M 11 Jun 17:04:50.095 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:04:50.10683 709:M 11 Jun 17:04:50.095 * Background saving started by pid 24448
+2018-06-11_17:04:50.17179 24448:C 11 Jun 17:04:50.170 * DB saved on disk
+2018-06-11_17:04:50.17328 24448:C 11 Jun 17:04:50.172 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_17:04:50.19642 709:M 11 Jun 17:04:50.196 * Background saving terminated with success
+2018-06-11_17:09:51.07651 709:M 11 Jun 17:09:51.076 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:09:51.08553 709:M 11 Jun 17:09:51.085 * Background saving started by pid 25108
+2018-06-11_17:09:51.13881 25108:C 11 Jun 17:09:51.138 * DB saved on disk
+2018-06-11_17:09:51.13996 25108:C 11 Jun 17:09:51.139 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_17:09:51.18569 709:M 11 Jun 17:09:51.185 * Background saving terminated with success
+2018-06-11_17:14:52.02907 709:M 11 Jun 17:14:52.028 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:14:52.03760 709:M 11 Jun 17:14:52.029 * Background saving started by pid 25771
+2018-06-11_17:14:52.10840 25771:C 11 Jun 17:14:52.108 * DB saved on disk
+2018-06-11_17:14:52.10963 25771:C 11 Jun 17:14:52.109 * RDB: 1 MB of memory used by copy-on-write
+2018-06-11_17:14:52.13019 709:M 11 Jun 17:14:52.130 * Background saving terminated with success
+2018-06-11_17:19:53.05310 709:M 11 Jun 17:19:53.052 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:19:53.06378 709:M 11 Jun 17:19:53.063 * Background saving started by pid 26423
+2018-06-11_17:19:53.10590 26423:C 11 Jun 17:19:53.105 * DB saved on disk
+2018-06-11_17:19:53.11309 26423:C 11 Jun 17:19:53.106 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_17:19:53.16429 709:M 11 Jun 17:19:53.164 * Background saving terminated with success
+2018-06-11_17:24:54.09822 709:M 11 Jun 17:24:54.098 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:24:54.11916 709:M 11 Jun 17:24:54.118 * Background saving started by pid 27066
+2018-06-11_17:24:54.17196 27066:C 11 Jun 17:24:54.171 * DB saved on disk
+2018-06-11_17:24:54.17349 27066:C 11 Jun 17:24:54.173 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_17:24:54.32035 709:M 11 Jun 17:24:54.319 * Background saving terminated with success
+2018-06-11_17:29:55.06242 709:M 11 Jun 17:29:55.046 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:29:55.07208 709:M 11 Jun 17:29:55.071 * Background saving started by pid 27720
+2018-06-11_17:29:55.13240 27720:C 11 Jun 17:29:55.132 * DB saved on disk
+2018-06-11_17:29:55.13386 27720:C 11 Jun 17:29:55.133 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_17:29:55.18253 709:M 11 Jun 17:29:55.179 * Background saving terminated with success
+2018-06-11_17:34:56.06848 709:M 11 Jun 17:34:56.068 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:34:56.07727 709:M 11 Jun 17:34:56.069 * Background saving started by pid 28381
+2018-06-11_17:34:56.11205 28381:C 11 Jun 17:34:56.111 * DB saved on disk
+2018-06-11_17:34:56.11325 28381:C 11 Jun 17:34:56.113 * RDB: 1 MB of memory used by copy-on-write
+2018-06-11_17:34:56.17019 709:M 11 Jun 17:34:56.169 * Background saving terminated with success
+2018-06-11_17:39:57.07287 709:M 11 Jun 17:39:57.072 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:39:57.07352 709:M 11 Jun 17:39:57.073 * Background saving started by pid 29043
+2018-06-11_17:39:57.11975 29043:C 11 Jun 17:39:57.119 * DB saved on disk
+2018-06-11_17:39:57.12070 29043:C 11 Jun 17:39:57.120 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_17:39:57.17456 709:M 11 Jun 17:39:57.174 * Background saving terminated with success
+2018-06-11_17:44:58.04529 709:M 11 Jun 17:44:58.045 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:44:58.04565 709:M 11 Jun 17:44:58.045 * Background saving started by pid 29705
+2018-06-11_17:44:58.07254 29705:C 11 Jun 17:44:58.072 * DB saved on disk
+2018-06-11_17:44:58.07317 29705:C 11 Jun 17:44:58.073 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_17:44:58.14641 709:M 11 Jun 17:44:58.146 * Background saving terminated with success
+2018-06-11_17:49:59.08135 709:M 11 Jun 17:49:59.081 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:49:59.08898 709:M 11 Jun 17:49:59.081 * Background saving started by pid 30358
+2018-06-11_17:49:59.15203 30358:C 11 Jun 17:49:59.151 * DB saved on disk
+2018-06-11_17:49:59.15349 30358:C 11 Jun 17:49:59.153 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_17:49:59.18771 709:M 11 Jun 17:49:59.183 * Background saving terminated with success
+2018-06-11_17:55:00.02477 709:M 11 Jun 17:55:00.024 * 10 changes in 300 seconds. Saving...
+2018-06-11_17:55:00.02538 709:M 11 Jun 17:55:00.025 * Background saving started by pid 31017
+2018-06-11_17:55:00.06830 31017:C 11 Jun 17:55:00.068 * DB saved on disk
+2018-06-11_17:55:00.06939 31017:C 11 Jun 17:55:00.069 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_17:55:00.12639 709:M 11 Jun 17:55:00.126 * Background saving terminated with success
+2018-06-11_18:00:01.03436 709:M 11 Jun 18:00:01.033 * 10 changes in 300 seconds. Saving...
+2018-06-11_18:00:01.05348 709:M 11 Jun 18:00:01.053 * Background saving started by pid 31675
+2018-06-11_18:00:01.16105 31675:C 11 Jun 18:00:01.160 * DB saved on disk
+2018-06-11_18:00:01.16693 31675:C 11 Jun 18:00:01.166 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_18:00:01.25500 709:M 11 Jun 18:00:01.254 * Background saving terminated with success
+2018-06-11_18:05:02.05255 709:M 11 Jun 18:05:02.052 * 10 changes in 300 seconds. Saving...
+2018-06-11_18:05:02.06812 709:M 11 Jun 18:05:02.052 * Background saving started by pid 32332
+2018-06-11_18:05:02.13117 32332:C 11 Jun 18:05:02.131 * DB saved on disk
+2018-06-11_18:05:02.13788 32332:C 11 Jun 18:05:02.131 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_18:05:02.15246 709:M 11 Jun 18:05:02.152 * Background saving terminated with success
+2018-06-11_18:10:03.09081 709:M 11 Jun 18:10:03.090 * 10 changes in 300 seconds. Saving...
+2018-06-11_18:10:03.09108 709:M 11 Jun 18:10:03.091 * Background saving started by pid 32999
+2018-06-11_18:10:03.23243 32999:C 11 Jun 18:10:03.232 * DB saved on disk
+2018-06-11_18:10:03.23269 32999:C 11 Jun 18:10:03.232 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_18:10:03.32911 709:M 11 Jun 18:10:03.295 * Background saving terminated with success
+2018-06-11_18:15:04.03517 709:M 11 Jun 18:15:04.035 * 10 changes in 300 seconds. Saving...
+2018-06-11_18:15:04.03934 709:M 11 Jun 18:15:04.039 * Background saving started by pid 33675
+2018-06-11_18:15:04.05329 33675:C 11 Jun 18:15:04.053 * DB saved on disk
+2018-06-11_18:15:04.05432 33675:C 11 Jun 18:15:04.053 * RDB: 0 MB of memory used by copy-on-write
+2018-06-11_18:15:04.14041 709:M 11 Jun 18:15:04.139 * Background saving terminated with success
+2018-06-11_18:15:34.32028 709:signal-handler (1528740934) Received SIGTERM scheduling shutdown...
+2018-06-11_18:15:34.37448 709:M 11 Jun 18:15:34.374 # User requested shutdown...
+2018-06-11_18:15:34.37606 709:M 11 Jun 18:15:34.374 * Saving the final RDB snapshot before exiting.
+2018-06-11_18:15:34.38409 709:M 11 Jun 18:15:34.384 * DB saved on disk
+2018-06-11_18:15:34.38454 709:M 11 Jun 18:15:34.384 * Removing the pid file.
+2018-06-11_18:15:34.38834 709:M 11 Jun 18:15:34.388 * Removing the unix socket file.
+2018-06-11_18:15:34.38884 709:M 11 Jun 18:15:34.388 # Redis is now ready to exit, bye bye...
+2018-06-11_19:58:29.04495                 _._                                                  
+2018-06-11_19:58:29.04682            _.-``__ ''-._                                             
+2018-06-11_19:58:29.04708       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_19:58:29.04729   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_19:58:29.04748  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_19:58:29.04768  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_19:58:29.04787  |    `-._   `._    /     _.-'    |     PID: 709
+2018-06-11_19:58:29.04808   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_19:58:29.04824  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_19:58:29.04838  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_19:58:29.04851   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_19:58:29.04865  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_19:58:29.04880  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_19:58:29.04893   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_19:58:29.04912       `-._    `-.__.-'    _.-'                                       
+2018-06-11_19:58:29.04926           `-._        _.-'                                           
+2018-06-11_19:58:29.04940               `-.__.-'                                               
+2018-06-11_19:58:29.04953 
+2018-06-11_19:58:29.04965 709:M 11 Jun 19:58:29.045 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_19:58:29.04979 709:M 11 Jun 19:58:29.045 # Server started, Redis version 3.2.11
+2018-06-11_19:58:29.04994 709:M 11 Jun 19:58:29.045 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_19:58:29.05010 709:M 11 Jun 19:58:29.045 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_20:05:29.44704                 _._                                                  
+2018-06-11_20:05:29.44883            _.-``__ ''-._                                             
+2018-06-11_20:05:29.44908       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_20:05:29.44909   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_20:05:29.44909  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_20:05:29.44909  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_20:05:29.44909  |    `-._   `._    /     _.-'    |     PID: 711
+2018-06-11_20:05:29.44910   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_20:05:29.44910  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_20:05:29.44910  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_20:05:29.44910   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_20:05:29.44910  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_20:05:29.44910  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_20:05:29.44910   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_20:05:29.44910       `-._    `-.__.-'    _.-'                                       
+2018-06-11_20:05:29.44911           `-._        _.-'                                           
+2018-06-11_20:05:29.44912               `-.__.-'                                               
+2018-06-11_20:05:29.44912 
+2018-06-11_20:05:29.44912 711:M 11 Jun 20:05:29.436 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_20:05:29.44912 711:M 11 Jun 20:05:29.436 # Server started, Redis version 3.2.11
+2018-06-11_20:05:29.44912 711:M 11 Jun 20:05:29.436 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_20:05:29.44912 711:M 11 Jun 20:05:29.436 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-11_20:11:45.58109                 _._                                                  
+2018-06-11_20:11:45.58361            _.-``__ ''-._                                             
+2018-06-11_20:11:45.58394       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-11_20:11:45.58411   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-11_20:11:45.58427  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-11_20:11:45.58442  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-11_20:11:45.58461  |    `-._   `._    /     _.-'    |     PID: 710
+2018-06-11_20:11:45.58477   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-11_20:11:45.58491  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_20:11:45.58505  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-11_20:11:45.58518   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_20:11:45.58532  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-11_20:11:45.58545  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-11_20:11:45.58563   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-11_20:11:45.58727       `-._    `-.__.-'    _.-'                                       
+2018-06-11_20:11:45.58979           `-._        _.-'                                           
+2018-06-11_20:11:45.59000               `-.__.-'                                               
+2018-06-11_20:11:45.59020 
+2018-06-11_20:11:45.59040 710:M 11 Jun 20:11:45.581 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-11_20:11:45.59077 710:M 11 Jun 20:11:45.581 # Server started, Redis version 3.2.11
+2018-06-11_20:11:45.59098 710:M 11 Jun 20:11:45.581 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-11_20:11:45.59098 710:M 11 Jun 20:11:45.581 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-06-13_06:02:55.46470                 _._                                                  
+2018-06-13_06:02:55.46762            _.-``__ ''-._                                             
+2018-06-13_06:02:55.47035       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-06-13_06:02:55.47080   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-06-13_06:02:55.47112  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-06-13_06:02:55.47261  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-06-13_06:02:55.47364  |    `-._   `._    /     _.-'    |     PID: 725
+2018-06-13_06:02:55.47424   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-06-13_06:02:55.47466  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-13_06:02:55.47491  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-06-13_06:02:55.47632   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-13_06:02:55.47658  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-06-13_06:02:55.47680  |    `-._`-._        _.-'_.-'    |                                  
+2018-06-13_06:02:55.47700   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-06-13_06:02:55.47991       `-._    `-.__.-'    _.-'                                       
+2018-06-13_06:02:55.48033           `-._        _.-'                                           
+2018-06-13_06:02:55.48082               `-.__.-'                                               
+2018-06-13_06:02:55.48131 
+2018-06-13_06:02:55.48155 725:M 13 Jun 06:02:55.453 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-06-13_06:02:55.48177 725:M 13 Jun 06:02:55.454 # Server started, Redis version 3.2.11
+2018-06-13_06:02:55.48198 725:M 13 Jun 06:02:55.454 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-06-13_06:02:55.48217 725:M 13 Jun 06:02:55.454 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-07-14_18:07:44.55241                 _._                                                  
+2018-07-14_18:07:44.55500            _.-``__ ''-._                                             
+2018-07-14_18:07:44.55524       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-07-14_18:07:44.55542   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-07-14_18:07:44.55558  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-07-14_18:07:44.55575  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-07-14_18:07:44.55592  |    `-._   `._    /     _.-'    |     PID: 714
+2018-07-14_18:07:44.55608   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-07-14_18:07:44.55624  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-07-14_18:07:44.55642  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-07-14_18:07:44.55657   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-07-14_18:07:44.55692  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-07-14_18:07:44.55709  |    `-._`-._        _.-'_.-'    |                                  
+2018-07-14_18:07:44.55709   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-07-14_18:07:44.55709       `-._    `-.__.-'    _.-'                                       
+2018-07-14_18:07:44.55709           `-._        _.-'                                           
+2018-07-14_18:07:44.55711               `-.__.-'                                               
+2018-07-14_18:07:44.55711 
+2018-07-14_18:07:44.55711 714:M 14 Jul 18:07:44.552 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-07-14_18:07:44.55711 714:M 14 Jul 18:07:44.553 # Server started, Redis version 3.2.11
+2018-07-14_18:07:44.55711 714:M 14 Jul 18:07:44.553 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-07-14_18:07:44.55711 714:M 14 Jul 18:07:44.553 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-07-14_18:12:45.03125 714:M 14 Jul 18:12:45.031 * 10 changes in 300 seconds. Saving...
+2018-07-14_18:12:45.04860 714:M 14 Jul 18:12:45.048 * Background saving started by pid 1892
+2018-07-14_18:12:45.10599 1892:C 14 Jul 18:12:45.105 * DB saved on disk
+2018-07-14_18:12:45.10637 1892:C 14 Jul 18:12:45.106 * RDB: 0 MB of memory used by copy-on-write
+2018-07-14_18:12:45.14903 714:M 14 Jul 18:12:45.148 * Background saving terminated with success
+2018-07-14_18:17:46.06249 714:M 14 Jul 18:17:46.062 * 10 changes in 300 seconds. Saving...
+2018-07-14_18:17:46.06734 714:M 14 Jul 18:17:46.062 * Background saving started by pid 2591
+2018-07-14_18:17:46.08821 2591:C 14 Jul 18:17:46.088 * DB saved on disk
+2018-07-14_18:17:46.08868 2591:C 14 Jul 18:17:46.088 * RDB: 0 MB of memory used by copy-on-write
+2018-07-14_18:17:46.16283 714:M 14 Jul 18:17:46.162 * Background saving terminated with success
+2018-07-14_18:22:47.02733 714:M 14 Jul 18:22:47.027 * 10 changes in 300 seconds. Saving...
+2018-07-14_18:22:47.02750 714:M 14 Jul 18:22:47.027 * Background saving started by pid 3262
+2018-07-14_18:22:47.07796 3262:C 14 Jul 18:22:47.077 * DB saved on disk
+2018-07-14_18:22:47.07849 3262:C 14 Jul 18:22:47.078 * RDB: 0 MB of memory used by copy-on-write
+2018-07-14_18:22:47.12758 714:M 14 Jul 18:22:47.127 * Background saving terminated with success
+2018-07-14_18:27:48.03893 714:M 14 Jul 18:27:48.038 * 10 changes in 300 seconds. Saving...
+2018-07-14_18:27:48.03933 714:M 14 Jul 18:27:48.039 * Background saving started by pid 3932
+2018-07-14_18:27:48.06685 3932:C 14 Jul 18:27:48.066 * DB saved on disk
+2018-07-14_18:27:48.06733 3932:C 14 Jul 18:27:48.067 * RDB: 0 MB of memory used by copy-on-write
+2018-07-14_18:27:48.14018 714:M 14 Jul 18:27:48.140 * Background saving terminated with success
+2018-07-14_18:36:40.01366                 _._                                                  
+2018-07-14_18:36:40.01658            _.-``__ ''-._                                             
+2018-07-14_18:36:40.01682       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-07-14_18:36:40.01701   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-07-14_18:36:40.01715  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-07-14_18:36:40.01730  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-07-14_18:36:40.01746  |    `-._   `._    /     _.-'    |     PID: 715
+2018-07-14_18:36:40.01762   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-07-14_18:36:40.01775  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-07-14_18:36:40.01792  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-07-14_18:36:40.01804   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-07-14_18:36:40.01805  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-07-14_18:36:40.01805  |    `-._`-._        _.-'_.-'    |                                  
+2018-07-14_18:36:40.01805   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-07-14_18:36:40.01805       `-._    `-.__.-'    _.-'                                       
+2018-07-14_18:36:40.01805           `-._        _.-'                                           
+2018-07-14_18:36:40.01806               `-.__.-'                                               
+2018-07-14_18:36:40.01806 
+2018-07-14_18:36:40.01807 715:M 14 Jul 18:36:40.009 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-07-14_18:36:40.01807 715:M 14 Jul 18:36:40.009 # Server started, Redis version 3.2.11
+2018-07-14_18:36:40.01807 715:M 14 Jul 18:36:40.010 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-07-14_18:36:40.01807 715:M 14 Jul 18:36:40.010 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-07-14_18:41:40.05292 715:M 14 Jul 18:41:40.052 * 10 changes in 300 seconds. Saving...
+2018-07-14_18:41:40.08080 715:M 14 Jul 18:41:40.078 * Background saving started by pid 1897
+2018-07-14_18:41:40.11991 1897:C 14 Jul 18:41:40.119 * DB saved on disk
+2018-07-14_18:41:40.12026 1897:C 14 Jul 18:41:40.120 * RDB: 0 MB of memory used by copy-on-write
+2018-07-14_18:41:40.17853 715:M 14 Jul 18:41:40.178 * Background saving terminated with success
+2018-07-14_18:43:59.35464                 _._                                                  
+2018-07-14_18:43:59.36477            _.-``__ ''-._                                             
+2018-07-14_18:43:59.36928       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-07-14_18:43:59.36981   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-07-14_18:43:59.37020  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-07-14_18:43:59.37052  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-07-14_18:43:59.37083  |    `-._   `._    /     _.-'    |     PID: 720
+2018-07-14_18:43:59.37104   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-07-14_18:43:59.37122  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-07-14_18:43:59.37136  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-07-14_18:43:59.37150   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-07-14_18:43:59.37164  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-07-14_18:43:59.37181  |    `-._`-._        _.-'_.-'    |                                  
+2018-07-14_18:43:59.37195   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-07-14_18:43:59.37209       `-._    `-.__.-'    _.-'                                       
+2018-07-14_18:43:59.37223           `-._        _.-'                                           
+2018-07-14_18:43:59.37238               `-.__.-'                                               
+2018-07-14_18:43:59.37252 
+2018-07-14_18:43:59.37266 720:M 14 Jul 18:43:59.354 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-07-14_18:43:59.37281 720:M 14 Jul 18:43:59.354 # Server started, Redis version 3.2.11
+2018-07-14_18:43:59.37295 720:M 14 Jul 18:43:59.354 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-07-14_18:43:59.37309 720:M 14 Jul 18:43:59.354 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-07-14_18:48:56.59727                 _._                                                  
+2018-07-14_18:48:56.60530            _.-``__ ''-._                                             
+2018-07-14_18:48:56.60966       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-07-14_18:48:56.61373   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-07-14_18:48:56.61501  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-07-14_18:48:56.61793  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-07-14_18:48:56.62338  |    `-._   `._    /     _.-'    |     PID: 718
+2018-07-14_18:48:56.62901   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-07-14_18:48:56.64415  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-07-14_18:48:56.65081  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-07-14_18:48:56.65171   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-07-14_18:48:56.65243  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-07-14_18:48:56.65732  |    `-._`-._        _.-'_.-'    |                                  
+2018-07-14_18:48:56.66116   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-07-14_18:48:56.66472       `-._    `-.__.-'    _.-'                                       
+2018-07-14_18:48:56.66571           `-._        _.-'                                           
+2018-07-14_18:48:56.66673               `-.__.-'                                               
+2018-07-14_18:48:56.66925 
+2018-07-14_18:48:56.67009 718:M 14 Jul 18:48:56.544 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-07-14_18:48:56.67186 718:M 14 Jul 18:48:56.544 # Server started, Redis version 3.2.11
+2018-07-14_18:48:56.67374 718:M 14 Jul 18:48:56.544 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-07-14_18:48:56.67518 718:M 14 Jul 18:48:56.544 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-07-14_18:53:57.03480 718:M 14 Jul 18:53:57.026 * 10 changes in 300 seconds. Saving...
+2018-07-14_18:53:57.04482 718:M 14 Jul 18:53:57.043 * Background saving started by pid 1935
+2018-07-14_18:53:57.06302 1935:C 14 Jul 18:53:57.062 * DB saved on disk
+2018-07-14_18:53:57.06427 1935:C 14 Jul 18:53:57.063 * RDB: 0 MB of memory used by copy-on-write
+2018-07-14_18:53:57.14407 718:M 14 Jul 18:53:57.143 * Background saving terminated with success

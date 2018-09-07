@@ -1,0 +1,130 @@
+version: '3'
+
+services:
+  gitlab:
+    build:
+      context: dev-tools/gitlab
+      dockerfile: gitlab.dockerfile
+    depends_on:
+      - postgresql
+      - redis
+    # links:
+    #   - postgresql
+    #   - redis
+    volumes:
+    #   - ./dev-tools/gitlab/config:/etc/gitlab
+      - ./dev-tools/gitlab/logs:/var/log/gitlab
+    #   - ./dev-tools/gitlab/data:/var/opt/gitlab
+    ports:
+      - "8000:80"
+      # - "443"
+      # - "22"
+    env_file: ./dev-tools/gitlab/.env
+    restart: always
+    networks:
+      - tools
+
+  tuleap:
+    build:
+      context: dev-tools/tuleap
+      dockerfile: tuleap.dockerfile
+    # volumes:
+    #   - ./dev-tools/tuleap/data:/data
+    ports:
+      - "8083:80"
+      - "3443:443"
+      - "322:22"
+    env_file: ./dev-tools/tuleap/.env
+    restart: always
+    networks:
+      - tools
+
+  jenkins:
+    build:
+      context: dev-tools/jenkins
+      dockerfile: jenkins.dockerfile
+    volumes:
+      - ./dev-tools/jenkins/data:/var/jenkins_home
+    ports:
+      - "8080:8080"
+    env_file: ./dev-tools/jenkins/.env
+    restart: always
+    networks:
+      - tools
+
+  jfrog:
+    build:
+      context: dev-tools/jfrog
+      dockerfile: jfrog.dockerfile
+    volumes:
+      - ./dev-tools/jfrog/data:/var/opt/jfrog/artifactory/data
+      - ./dev-tools/jfrog/logs:/var/opt/jfrog/artifactory/logs
+      - ./dev-tools/jfrog/config:/var/opt/jfrog/artifactory/etc
+    ports:
+      - "8081:8081"
+    env_file: ./dev-tools/jfrog/.env
+    restart: always
+    networks:
+      - tools
+
+  sonarqube:
+    build:
+      context: dev-tools/sonarqube
+      dockerfile: sonar.dockerfile
+    volumes:
+      - ./dev-tools/sonarqube/data:/opt/sonarqube/data
+      - ./dev-tools/sonarqube/conf:/opt/sonarqube/conf
+      - ./dev-tools/sonarqube/extensions:/opt/sonarqube/extensions
+      - ./dev-tools/sonarqube/bundled-plugins:/opt/sonarqube/lib/bundled-plugins
+    ports:
+      - "9000:9000"
+    env_file: ./dev-tools/sonarqube/.env
+    restart: always
+    networks:
+      - tools
+
+  postgresql:
+    build:
+      context: dev-tools/database/postgresql
+      dockerfile: postgresql.dockerfile
+    # volumes:
+    #   - ./dev-tools/database/postgresql/data:/var/lib/postgresql:Z
+    ports:
+      - "5432:5432"
+    env_file: ./dev-tools/database/postgresql/.env
+    restart: always
+    networks:
+      - tools
+
+  adminer:
+    build: 
+      context: dev-tools/database/adminer
+      dockerfile: adminer.dockerfile
+    volumes: 
+      - ./dev-tools/database/adminer/themes/adminer-pappu.css:/var/www/html/adminer.css
+    depends_on: 
+      - postgresql
+    links:
+      - postgresql:db
+    ports:
+      - 8085:8080
+    restart: always
+    networks:
+      - tools
+
+  redis:
+    build: 
+      context: dev-tools/redis
+      dockerfile: redis.dockerfile
+    volumes:
+      - ././dev-tools/redis/config:/usr/local/etc/redis
+      - ./dev-tools/redis/data:/data:ro
+    ports: 
+      - "6379:6379"
+    restart: always
+    networks:
+      - tools
+
+networks:
+  tools:
+    driver: bridge
